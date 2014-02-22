@@ -63,7 +63,7 @@ bundle exec rake spec
 ## Deployment
 
 The staging app lives at http://rgsoc-teams-staging.herokuapp.com/users. The production app is
-at http://teams.railsgirlssummerofcode.org.
+at http://2013.teams.railsgirlssummerofcode.org.
 
 ```
 [remote "staging"]
