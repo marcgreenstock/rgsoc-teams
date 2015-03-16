@@ -36,6 +36,11 @@ class ApplicationDraft < ActiveRecord::Base
     false
   end
 
+  def sign_off
+    signed_off_at = Time.now.utc
+    signed_off_by = current_user.github_handle
+  end
+
   private
 
   def set_current_season
